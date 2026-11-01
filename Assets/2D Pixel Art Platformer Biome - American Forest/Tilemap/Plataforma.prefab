@@ -1033,7 +1033,7 @@ GameObject:
   - component: {fileID: 2892478650181823511}
   - component: {fileID: 8157616904746538684}
   m_Layer: 0
-  m_Name: Tilemap
+  m_Name: Plataforma
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
