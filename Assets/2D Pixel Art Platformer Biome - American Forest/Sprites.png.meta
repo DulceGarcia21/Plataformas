@@ -408,10 +408,10 @@ TextureImporter:
       name: TileGround1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 160
-        width: 16
-        height: 16
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,8 +454,8 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 160
-        width: 16
-        height: 16
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -474,9 +474,9 @@ TextureImporter:
       name: TileGround4
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 144
-        width: 16
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -520,7 +520,7 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 144
-        width: 16
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -540,10 +540,10 @@ TextureImporter:
       name: TileGround7
       rect:
         serializedVersion: 2
-        x: 16
-        y: 128
-        width: 16
-        height: 16
+        x: 17
+        y: 129
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -563,9 +563,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 128
+        y: 129
         width: 16
-        height: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -585,9 +585,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 128
-        width: 16
-        height: 16
+        y: 129
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -694,10 +694,10 @@ TextureImporter:
       name: TileGround14
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 96
-        width: 16
-        height: 16
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -719,7 +719,7 @@ TextureImporter:
         x: 32
         y: 96
         width: 16
-        height: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -740,8 +740,8 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 96
-        width: 16
-        height: 16
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,9 +760,9 @@ TextureImporter:
       name: TileGround17
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 80
-        width: 16
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -806,7 +806,7 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 80
-        width: 16
+        width: 15
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -826,10 +826,10 @@ TextureImporter:
       name: TileGround20
       rect:
         serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
+        x: 17
+        y: 65
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -849,9 +849,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 64
+        y: 65
         width: 16
-        height: 16
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -871,9 +871,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 64
-        width: 16
-        height: 16
+        y: 65
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
