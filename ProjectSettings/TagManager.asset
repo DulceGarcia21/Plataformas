@@ -50,7 +50,7 @@ TagManager:
   - name: adornos
     uniqueID: 2224128429
     locked: 0
-  - name: enemigos
+  - name: peligros
     uniqueID: 2737903809
     locked: 0
   - name: premios
