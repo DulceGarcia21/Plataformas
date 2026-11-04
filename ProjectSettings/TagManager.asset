@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - suelo
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - Water
   - UI
   - suelo
-  - cereza
+  - moneda
   - vida
   - peligros
   - 
@@ -58,6 +59,9 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 1793905345
+    locked: 0
+  - name: proyectil
+    uniqueID: 560572387
     locked: 0
   m_RenderingLayers:
   - Default

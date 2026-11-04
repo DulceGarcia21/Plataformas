@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: idle
+  m_Name: idlePlayer
   serializedVersion: 8
   m_Legacy: 0
   m_Compressed: 0
@@ -21,19 +21,23 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
+      value: {fileID: 3627241991512469009, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
+    - time: 0.1
+      value: {fileID: 8626908329321490321, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
+    - time: 0.21666667
       value: {fileID: -4165279092682581564, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
-    - time: 0.15
+    - time: 0.31666666
       value: {fileID: 6920959983148327855, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
-    - time: 0.3
+    - time: 0.43333334
       value: {fileID: -5994095199006235229, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
-    - time: 0.45
+    - time: 0.53333336
       value: {fileID: 5614976468819159999, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
-    - time: 0.6
+    - time: 0.65
       value: {fileID: -9127355577728069065, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
     - time: 0.75
       value: {fileID: -6295864149249327340, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
     attribute: m_Sprite
-    path: imagen
+    path: 
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -45,7 +49,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2199507635
+      path: 0
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -55,6 +59,8 @@ AnimationClip:
       isSerializeReferenceCurve: 0
       metaData: 0
     pptrCurveMapping:
+    - {fileID: 3627241991512469009, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
+    - {fileID: 8626908329321490321, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
     - {fileID: -4165279092682581564, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
     - {fileID: 6920959983148327855, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
     - {fileID: -5994095199006235229, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
