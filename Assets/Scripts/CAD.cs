@@ -9,7 +9,7 @@ public class CAD : MonoBehaviour
     public Transform puntoEmision;
 
     public static bool disparando = false;
-    public static int dirDisparo = 0;
+    public int dirDisparo = 0;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -49,8 +49,14 @@ public class CAD : MonoBehaviour
     }
 
     private void EmiteProyectil(){
-        dirDisparo = MovimientoPlayer.dirAtaque;
-        Instantiate(proyectil, puntoEmision.position, transform.rotation);
+        // Instanciamos el proyectil y guardamos su referencia en una variable local 'nuevoProyectil'
+        GameObject nuevoProyectil = Instantiate(proyectil, puntoEmision.position, transform.rotation);
+        
+        // Le asignamos su propia dirección individual al proyectil recién creado
+        Proyectil scriptProyectil = nuevoProyectil.GetComponent<Proyectil>();
+        if (scriptProyectil != null) {
+            scriptProyectil.direccion = MovimientoPlayer.dirAtaque;
+        }
     }
 
     private void activaCapa(string nombre){

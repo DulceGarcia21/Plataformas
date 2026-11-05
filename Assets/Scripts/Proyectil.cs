@@ -3,10 +3,24 @@ using UnityEngine;
 public class Proyectil : MonoBehaviour
 {
     [SerializeField] private float velocidad = 8.0f;
+    public int direccion = 1;
+    private SpriteRenderer spriteRenderer;
+
+    void Awake() {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+    
+    void Start() {
+        // Si va a la izquierda (2), volteamos el sprite horizontalmente
+        if (direccion == 2 && spriteRenderer != null) {
+            spriteRenderer.flipX = true;
+        }
+    }
+
     void FixedUpdate() {
-        if (CAD.dirDisparo == 1) { //Derecha
+        if (direccion == 1) { // Derecha
             transform.position += new Vector3(1, 0, 0) * Time.deltaTime * velocidad;
-        } else if (CAD.dirDisparo == 2) { //Izquierda
+        } else if (direccion == 2) { // Izquierda
             transform.position += new Vector3(-1, 0, 0) * Time.deltaTime * velocidad;
         }
     }
@@ -16,7 +30,7 @@ public class Proyectil : MonoBehaviour
             Destroy(this.gameObject);
         }
         if (collision.gameObject.tag == "enemigo") {
-            //collision.transform.GetComponent<Enemigo>().TomarDaño(1);
+            //collision.transform.GetComponent<Enemigo>().TomarDano(1);
             Destroy(this.gameObject);
         }
     }
