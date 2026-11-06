@@ -6,31 +6,45 @@ public class Proyectil : MonoBehaviour
     public int direccion = 1;
     private SpriteRenderer spriteRenderer;
 
-    void Awake() {
+    void Awake()
+    {
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    
-    void Start() {
-        // Si va a la izquierda (2), volteamos el sprite horizontalmente
-        if (direccion == 2 && spriteRenderer != null) {
+
+    void Start()
+    {
+        // Si va a la izquierda (2), volteamos el sprite horizontalmente  
+        if (direccion == 2 && spriteRenderer != null)
+        {
             spriteRenderer.flipX = true;
         }
     }
 
-    void FixedUpdate() {
-        if (direccion == 1) { // Derecha
+    void FixedUpdate()
+    {
+        if (direccion == 1)
+        { // Derecha  
             transform.position += new Vector3(1, 0, 0) * Time.deltaTime * velocidad;
-        } else if (direccion == 2) { // Izquierda
+        }
+        else if (direccion == 2)
+        { // Izquierda  
             transform.position += new Vector3(-1, 0, 0) * Time.deltaTime * velocidad;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.gameObject.tag == "limites") {
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("limites"))
+        {
             Destroy(this.gameObject);
         }
-        if (collision.gameObject.tag == "enemigo") {
-            //collision.transform.GetComponent<Enemigo>().TomarDano(1);
+        if (collision.CompareTag("enemigo"))
+        {
+            EnemigoBase enemigo = collision.GetComponent<EnemigoBase>();
+            if (enemigo != null)
+            {
+                enemigo.TomarDanio(1);
+            }
             Destroy(this.gameObject);
         }
     }

@@ -1,51 +1,66 @@
 using UnityEngine;
 
-public class Proyectil : MonoBehaviour
+public class EnemigoBase : MonoBehaviour
 {
-    [SerializeField] private float velocidad = 8.0f;
-    public int direccion = 1;
-    private SpriteRenderer spriteRenderer;
+    [Header("Estadísticas del Enemigo")]
+    [SerializeField] protected int vidaMax = 1;
+    protected int vidaActual;
 
-    void Awake()
+    [SerializeField] protected int danioContacto = 1;
+    [SerializeField] protected int puntosAlMorir = 100;
+
+    protected virtual void Start()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        vidaActual = vidaMax;
     }
 
-    void Start()
+    public virtual void TomarDanio(int cantidad)
     {
-        // Si va a la izquierda (2), volteamos el sprite horizontalmente  
-        if (direccion == 2 && spriteRenderer != null)
+        vidaActual -= cantidad;
+        Debug.Log($"<color=red>[DAÑO ENEMIGO]</color> {gameObject.name} recibió daño. Vida restante: {vidaActual}");
+
+        if (vidaActual <= 0)
         {
-            spriteRenderer.flipX = true;
-        }
-    }
-
-    void FixedUpdate()
-    {
-        if (direccion == 1)
-        { // Derecha  
-            transform.position += new Vector3(1, 0, 0) * Time.deltaTime * velocidad;
-        }
-        else if (direccion == 2)
-        { // Izquierda  
-            transform.position += new Vector3(-1, 0, 0) * Time.deltaTime * velocidad;
+            Morir();
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void Morir()
     {
-        if (collision.CompareTag("limites"))
+        // Otorga los puntos al ScoreManager
+        if (ScoreManager.Instancia != null)
         {
-            Destroy(this.gameObject);
+            ScoreManager.Instancia.SumarPuntos(puntosAlMorir);
+
+            SaludPlayer salud = FindFirstObjectByType<SaludPlayer>();
+            if (salud != null) salud.ActualizarHUD();
         }
-        if (collision.CompareTag("enemigo"))
+
+        Destroy(gameObject);
+    }
+
+    // Daño al jugador al tocarlo
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
         {
-            EnemigoBase enemigo = collision.GetComponent<EnemigoBase>();
-            if (enemigo != null)
+            SaludPlayer saludPlayer = collision.gameObject.GetComponent<SaludPlayer>();
+            if (saludPlayer != null)
             {
-                enemigo.TomarDanio(1);
+                saludPlayer.RecibirDano(danioContacto);
             }
-            Destroy(this.gameObject);
+        }
+    }
+
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            SaludPlayer saludPlayer = collision.GetComponent<SaludPlayer>();
+            if (saludPlayer != null)
+            {
+                saludPlayer.RecibirDano(danioContacto);
+            }
         }
     }
 }
