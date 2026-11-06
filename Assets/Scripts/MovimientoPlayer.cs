@@ -14,6 +14,13 @@ public class MovimientoPlayer : MonoBehaviour
     public static int dirIdle = 1;
     public static int dirAtaque = 0;
 
+    [Header("Detección de Suelo")]
+    [SerializeField] private Transform puntoSuelo; // Asigna aquí el objeto vacío "PuntoSuelo"
+    [SerializeField] private float radioSuelo = 0.2f;
+    [SerializeField] private LayerMask capaSuelo;  // Selecciona aquí la capa "Suelo"
+
+    private bool estaEnSuelo;
+
     void Start()
     {
         anim.SetBool("saltando", false);
@@ -28,8 +35,11 @@ public class MovimientoPlayer : MonoBehaviour
 
     void Update()
     {
-        // 1. Detectar si aterrizamos para reiniciar saltos y apagar la animación de salto
-        if (ColisionSuelo.estaEnSuelo && rb.linearVelocity.y <= 0.1f)
+        // 1. Detección física instantánea de alta precisión
+        estaEnSuelo = Physics2D.OverlapCircle(puntoSuelo.position, radioSuelo, capaSuelo);
+
+        // 2. Si toca el suelo y está cayendo o quieto, se reinician los saltos
+        if (estaEnSuelo && rb.linearVelocity.y <= 0.1f)
         {
             numSaltos = 0;
             estaSaltando = false;
@@ -37,7 +47,7 @@ public class MovimientoPlayer : MonoBehaviour
             anim.SetBool("saltandoIzq", false);
         }
 
-        // 2. Lógica del salto y doble salto
+        // 3. Control del salto doble
         if (Input.GetButtonDown("Jump"))
         {
             if (numSaltos < 2)
@@ -45,7 +55,6 @@ public class MovimientoPlayer : MonoBehaviour
                 numSaltos++;
                 estaSaltando = true;
 
-                // Reiniciar la velocidad vertical asegura que el doble salto tenga la misma altura
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, velSalto);
 
                 if (dirIdle == 1)
@@ -105,16 +114,15 @@ public class MovimientoPlayer : MonoBehaviour
             activaCapa("Atacar");
         }
         else if (estaSaltando)
-        { // Prioridad al salto sobre el caminar
+        {
             activaCapa("Saltar");
         }
-        else if (movX != 0 && ColisionSuelo.estaEnSuelo)
-        { // Solo caminar si está en el suelo
+        else if (movX != 0 && estaEnSuelo)
+        {
             activaCapa("Caminar");
         }
         else
         {
-            // Regresar a la capa base (Idle) cuando no hace nada
             activaCapa("Base Layer");
         }
     }
@@ -122,7 +130,7 @@ public class MovimientoPlayer : MonoBehaviour
     private void activaCapa(string nombre)
     {
         int index = anim.GetLayerIndex(nombre);
-        if (index == -1) return; // Evita errores si la capa "Base Layer" tiene otro nombre
+        if (index == -1) return;
 
         for (int i = 0; i < anim.layerCount; i++)
         {
@@ -134,5 +142,15 @@ public class MovimientoPlayer : MonoBehaviour
     private void AnimacionesPlayer(float n)
     {
         anim.SetFloat("movX", n);
+    }
+
+    // Dibuja un círculo rojo en la escena para calibrar el detector
+    private void OnDrawGizmos()
+    {
+        if (puntoSuelo != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(puntoSuelo.position, radioSuelo);
+        }
     }
 }
