@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager Instancia;
+    public static ScoreManager Instancia { get; private set; }
 
     private int puntosTotales = 0;
 
@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
         if (Instancia == null)
         {
             Instancia = this;
+
         }
         else
         {
