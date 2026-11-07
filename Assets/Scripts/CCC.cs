@@ -18,6 +18,17 @@ public class CCC : MonoBehaviour
 
     void Update()
     {
+       
+        float posX = Mathf.Abs(controladorGolpe.localPosition.x);
+        if (MovimientoPlayer.dirAtaque == 1) 
+        {
+            controladorGolpe.localPosition = new Vector2(posX, controladorGolpe.localPosition.y);
+        }
+        else if (MovimientoPlayer.dirAtaque == 2)
+        {
+            controladorGolpe.localPosition = new Vector2(-posX, controladorGolpe.localPosition.y);
+        }
+
         if (tiempoSigAtaque < 0.05f && tiempoEntreAtaques > 0)
         {
             atacando = false;
@@ -38,11 +49,11 @@ public class CCC : MonoBehaviour
     private void Golpe()
     {
         if (MovimientoPlayer.dirAtaque == 1)
-        {  // Der  
+        { 
             anim.SetTrigger("ataqueDer");
         }
         else if (MovimientoPlayer.dirAtaque == 2)
-        {  // Izq  
+        {   
             anim.SetTrigger("ataqueIzq");
         }
     }

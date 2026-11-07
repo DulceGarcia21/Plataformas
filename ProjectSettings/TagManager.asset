@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - suelo
+  - enemigo
   layers:
   - Default
   - TransparentFX

@@ -17,16 +17,30 @@ public class CAD : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(tiempoSigAtaque < 0.05f && tiempoEntreAtaques >0){
+        
+        float posX = Mathf.Abs(puntoEmision.localPosition.x);
+        if (MovimientoPlayer.dirAtaque == 1) // Derecha
+        {
+            puntoEmision.localPosition = new Vector2(posX, puntoEmision.localPosition.y);
+        }
+        else if (MovimientoPlayer.dirAtaque == 2) // Izquierda
+        {
+            puntoEmision.localPosition = new Vector2(-posX, puntoEmision.localPosition.y);
+        }
+
+        // 2
+        if (tiempoSigAtaque < 0.05f && tiempoEntreAtaques > 0)
+        {
             disparando = false;
         }
-        if(tiempoSigAtaque > 0){
+        if (tiempoSigAtaque > 0)
+        {
             tiempoSigAtaque -= Time.deltaTime;
         }
-        if(Input.GetButtonDown("Fire2") && tiempoSigAtaque <= 0){
+        if (Input.GetButtonDown("Fire2") && tiempoSigAtaque <= 0)
+        {
             disparando = true;
             activaCapa("Atacar");
             Dispara();
