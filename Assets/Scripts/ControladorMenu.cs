@@ -12,9 +12,9 @@ public class ControladorMenu : MonoBehaviour
         panelOpciones.SetActive(false);
     }
 
-    /*public void IrAIntro(){
-        SceneManager.LoadScene("Intro");
-    }*/
+    public void IrAMenuNiveles(){
+        SceneManager.LoadScene("MenuNiveles");
+    }
 
     public void IrACreditos(){
         SceneManager.LoadScene("Creditos");
