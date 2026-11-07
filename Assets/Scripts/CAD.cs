@@ -11,7 +11,6 @@ public class CAD : MonoBehaviour
     public static bool disparando = false;
     public int dirDisparo = 0;
     
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -21,16 +20,16 @@ public class CAD : MonoBehaviour
     {
         
         float posX = Mathf.Abs(puntoEmision.localPosition.x);
-        if (MovimientoPlayer.dirAtaque == 1) // Derecha
+        if (MovimientoPlayer.dirAtaque == 1) 
         {
             puntoEmision.localPosition = new Vector2(posX, puntoEmision.localPosition.y);
         }
-        else if (MovimientoPlayer.dirAtaque == 2) // Izquierda
+        else if (MovimientoPlayer.dirAtaque == 2) 
         {
             puntoEmision.localPosition = new Vector2(-posX, puntoEmision.localPosition.y);
         }
 
-        // 2
+        
         if (tiempoSigAtaque < 0.05f && tiempoEntreAtaques > 0)
         {
             disparando = false;

@@ -25,9 +25,15 @@ public class EnemigoBase : MonoBehaviour
         }
     }
 
+    public virtual void TomarDanioDistancia(int cantidad)
+    {
+        // Por defecto, hace exactamente lo mismo que el daño normal
+        TomarDanio(cantidad);
+    }
+
     protected virtual void Morir()
     {
-        // Otorga los puntos al ScoreManager
+
         if (ScoreManager.Instancia != null)
         {
             ScoreManager.Instancia.SumarPuntos(puntosAlMorir);
@@ -39,7 +45,6 @@ public class EnemigoBase : MonoBehaviour
         Destroy(gameObject);
     }
 
-    // Daño al jugador al tocarlo
     protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))

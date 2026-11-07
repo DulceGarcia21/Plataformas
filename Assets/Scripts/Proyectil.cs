@@ -43,7 +43,7 @@ public class Proyectil : MonoBehaviour
             EnemigoBase enemigo = collision.GetComponent<EnemigoBase>();
             if (enemigo != null)
             {
-                enemigo.TomarDanio(1);
+                enemigo.TomarDanioDistancia(1);
             }
             Destroy(this.gameObject);
         }
