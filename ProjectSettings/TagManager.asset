@@ -17,7 +17,7 @@ TagManager:
   - moneda
   - vida
   - peligros
-  - 
+  - Player
   - 
   - 
   - 
@@ -63,6 +63,9 @@ TagManager:
     locked: 0
   - name: proyectil
     uniqueID: 560572387
+    locked: 0
+  - name: UI
+    uniqueID: 1814971661
     locked: 0
   m_RenderingLayers:
   - Default
