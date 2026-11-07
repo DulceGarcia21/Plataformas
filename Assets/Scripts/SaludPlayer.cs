@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
-using TMPro; // <-- 1. Asegúrate de incluir esta librería al inicio
+using TMPro;
 
 public class SaludPlayer : MonoBehaviour
 {
@@ -12,7 +12,7 @@ public class SaludPlayer : MonoBehaviour
     private int vidasActuales;
 
     [Header("UI Provisional")]
-    [SerializeField] private TextMeshProUGUI textoHUD; // <-- 2. Cambia 'Text' por 'TextMeshProUGUI'
+    [SerializeField] private TextMeshProUGUI textoHUD;
 
     [Header("Invulnerabilidad (i-Frames)")]
     [SerializeField] private float tiempoInvulnerable = 1.5f;
@@ -30,7 +30,6 @@ public class SaludPlayer : MonoBehaviour
         vidasActuales = maxVidasTotales;
         ReiniciarSalud();
 
-        // Diagnóstico en la Consola
         if (textoHUD == null)
         {
             Debug.LogError("<b>[ERROR UI]</b> La casilla 'Texto HUD' en el Player está VACÍA. Arrastra el objeto UI_HUD.");
@@ -43,12 +42,11 @@ public class SaludPlayer : MonoBehaviour
 
     void Update()
     {
-        // PRUEBAS EN EL EDITOR:
-        if (Input.GetKeyDown(KeyCode.K)) // Presiona 'K' para restar 1 de daño
+        if (Input.GetKeyDown(KeyCode.K))
         {
             RecibirDano(1);
         }
-        if (Input.GetKeyDown(KeyCode.P)) // Presiona 'P' para sumar 100 puntos
+        if (Input.GetKeyDown(KeyCode.P))
         {
             if (ScoreManager.Instancia != null)
             {
@@ -57,6 +55,15 @@ public class SaludPlayer : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("trampa"))
+        {
+            RecibirDano(1);
+        }
+    }
+
 
     public void RecibirDano(int cantidad)
     {
