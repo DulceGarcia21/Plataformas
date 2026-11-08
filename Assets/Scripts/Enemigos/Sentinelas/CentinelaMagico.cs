@@ -10,6 +10,18 @@ public class CentinelaMagico : EnemigoCentinela
     public int multiplicadorDistancia = 2;
     public int divisorFisico = 1;
 
+    protected override void Start()
+    {
+        base.Start(); // Ejecuta la configuración base
+
+        // CORRECCIÓN VISUAL: Como el sprite del Moradito SÍ mira a la derecha por defecto,
+        // deshacemos el giro negativo que heredó del Orco.
+        if (moviendoADerecha)
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+    }
+
     public override void TomarDanioDistancia(int cantidad)
     {
         int danioFinal = cantidad * multiplicadorDistancia;
