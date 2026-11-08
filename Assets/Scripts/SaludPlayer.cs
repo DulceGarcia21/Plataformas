@@ -1,47 +1,50 @@
 ﻿using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement; // Necesario para poder reiniciar el nivel
 
 public class SaludPlayer : MonoBehaviour
 {
-    [Header("Configuración de Vidas y Salud")]
-    [SerializeField] private int maxSaludPorVida = 3;
-    private int saludActual;
+    [Header("Configuración de Salud (Corazones)")]
+    [SerializeField] private int maxCorazones = 3;
+    private int corazonesActuales;
 
-    [SerializeField] private int maxVidasTotales = 5;
-    private int vidasActuales;
-
-    [Header("UI Provisional")]
+    [Header("UI y Game Over")]
     [SerializeField] private TextMeshProUGUI textoHUD;
+    [SerializeField] private GameObject panelGameOver; // Arrastra aquí tu UI Panel de Game Over
 
     [Header("Invulnerabilidad (i-Frames)")]
     [SerializeField] private float tiempoInvulnerable = 1.5f;
     [SerializeField] private float frecuenciaParpadeo = 0.1f;
     private bool esInvulnerable = false;
+    private bool estaMuerto = false; // Bloquea interacciones si el jugador ya perdió
 
     private SpriteRenderer spriteRenderer;
-    private Vector3 posicionInicial;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        posicionInicial = transform.position;
+        corazonesActuales = maxCorazones;
 
-        vidasActuales = maxVidasTotales;
-        ReiniciarSalud();
+        // Aseguramos que la pantalla de Game Over esté oculta al iniciar el nivel
+        if (panelGameOver != null)
+        {
+            panelGameOver.SetActive(false);
+        }
+
+        ActualizarHUD();
 
         if (textoHUD == null)
         {
             Debug.LogError("<b>[ERROR UI]</b> La casilla 'Texto HUD' en el Player está VACÍA. Arrastra el objeto UI_HUD.");
         }
-        else
-        {
-            Debug.Log("<b>[UI OK]</b> El texto del HUD está conectado correctamente.");
-        }
     }
 
     void Update()
     {
+        if (estaMuerto) return;
+
+        // Teclas de prueba
         if (Input.GetKeyDown(KeyCode.K))
         {
             RecibirDano(1);
@@ -64,18 +67,17 @@ public class SaludPlayer : MonoBehaviour
         }
     }
 
-
     public void RecibirDano(int cantidad)
     {
-        if (esInvulnerable) return;
+        if (esInvulnerable || estaMuerto) return;
 
-        saludActual -= cantidad;
+        corazonesActuales -= cantidad;
         ActualizarHUD();
-        Debug.Log($"<color=orange>[DAÑO RECIBIDO]</color> Salud actual: {saludActual}/{maxSaludPorVida} | Vidas restantes: {vidasActuales}");
+        Debug.Log($"<color=orange>[DAÑO RECIBIDO]</color> Corazones actuales: {corazonesActuales}/{maxCorazones}");
 
-        if (saludActual <= 0)
+        if (corazonesActuales <= 0)
         {
-            PerderVida();
+            GameOver();
         }
         else
         {
@@ -83,28 +85,43 @@ public class SaludPlayer : MonoBehaviour
         }
     }
 
-    private void PerderVida()
+    // NUEVA FUNCIÓN: Para sumar corazones al recoger objetos
+    public void Curar(int cantidad)
     {
-        vidasActuales--;
-        ActualizarHUD();
+        if (estaMuerto) return;
 
-        if (vidasActuales > 0)
+        corazonesActuales += cantidad;
+
+        // Evitamos que la salud supere el máximo permitido
+        if (corazonesActuales > maxCorazones)
         {
-            Debug.Log($"<color=red>[VIDA PERDIDA]</color> Te quedan {vidasActuales} vidas. Reapareciendo...");
-            transform.position = posicionInicial;
-            ReiniciarSalud();
-            StartCoroutine(RutinaInvulnerabilidad());
+            corazonesActuales = maxCorazones;
         }
-        else
-        {
-            Debug.Log("<color=red><b>[GAME OVER]</b></color> Has agotado las 5 vidas.");
-        }
+
+        ActualizarHUD();
+        Debug.Log($"<color=green>[CURACIÓN]</color> Corazones actuales: {corazonesActuales}/{maxCorazones}");
     }
 
-    private void ReiniciarSalud()
+    private void GameOver()
     {
-        saludActual = maxSaludPorVida;
-        ActualizarHUD();
+        estaMuerto = true;
+        Debug.Log("<color=red><b>[GAME OVER]</b></color> Has perdido todos los corazones.");
+
+        // Mostrar pantalla de Game Over
+        if (panelGameOver != null)
+        {
+            panelGameOver.SetActive(true);
+        }
+
+        // Opcional: Detener el tiempo para que enemigos/físicas se pausen al morir
+        Time.timeScale = 0f;
+    }
+
+    // FUNCIÓN PÚBLICA PARA EL BOTÓN DE "REINTENTAR"
+    public void ReiniciarNivel()
+    {
+        Time.timeScale = 1f; // Restaurar el flujo del tiempo antes de recargar
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void ActualizarHUD()
@@ -112,20 +129,18 @@ public class SaludPlayer : MonoBehaviour
         if (textoHUD != null)
         {
             int puntos = ScoreManager.Instancia != null ? ScoreManager.Instancia.GetPuntos() : 0;
+            int saludVisual = Mathf.Max(0, corazonesActuales);
 
+            string corazones = new string('♥', saludVisual) + new string('♡', maxCorazones - saludVisual);
 
-            int saludVisual = Mathf.Max(0, saludActual);
-
-            string corazones = new string('♥', saludVisual) + new string('♡', maxSaludPorVida - saludVisual);
-
-            textoHUD.text = $"VIDAS: x{vidasActuales}\nSALUD: {corazones} ({saludVisual}/{maxSaludPorVida})\nPUNTOS: {puntos:D6}";
+            
+            textoHUD.text = $"SALUD: {corazones} ({saludVisual}/{maxCorazones})\nPUNTOS: {puntos:D6}";
         }
     }
 
     private IEnumerator RutinaInvulnerabilidad()
     {
         esInvulnerable = true;
-
         float tiempoTranscurrido = 0f;
         Color colorOriginal = spriteRenderer.color;
 
@@ -144,6 +159,5 @@ public class SaludPlayer : MonoBehaviour
         esInvulnerable = false;
     }
 
-    public int GetSaludActual() => saludActual;
-    public int GetVidasActuales() => vidasActuales;
+    public int GetCorazonesActuales() => corazonesActuales;
 }
