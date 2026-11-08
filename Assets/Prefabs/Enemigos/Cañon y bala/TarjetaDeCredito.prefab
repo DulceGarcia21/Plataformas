@@ -187,5 +187,5 @@ MonoBehaviour:
   prefabBala: {fileID: 0}
   puntoDisparo: {fileID: 8710540555008780654}
   tiempoEntreDisparos: 3
-  distanciaDeteccion: 12
+  distanciaDeteccion: 17
   direccionDisparo: 1

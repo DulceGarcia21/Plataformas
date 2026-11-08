@@ -113,9 +113,12 @@ public class SaludPlayer : MonoBehaviour
         {
             int puntos = ScoreManager.Instancia != null ? ScoreManager.Instancia.GetPuntos() : 0;
 
-            string corazones = new string('♥', saludActual) + new string('♡', maxSaludPorVida - saludActual);
 
-            textoHUD.text = $"VIDAS: x{vidasActuales}\nSALUD: {corazones} ({saludActual}/{maxSaludPorVida})\nPUNTOS: {puntos:D6}";
+            int saludVisual = Mathf.Max(0, saludActual);
+
+            string corazones = new string('♥', saludVisual) + new string('♡', maxSaludPorVida - saludVisual);
+
+            textoHUD.text = $"VIDAS: x{vidasActuales}\nSALUD: {corazones} ({saludVisual}/{maxSaludPorVida})\nPUNTOS: {puntos:D6}";
         }
     }
 
