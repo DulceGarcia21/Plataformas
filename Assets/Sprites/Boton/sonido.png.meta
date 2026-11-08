@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: cffef13cc65fd2843987b298599121ba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4609730394388536982
+    second: sonido_0
+  - first:
+      213: -335499986201756795
+    second: sonido_1
+  - first:
+      213: 5874037850313249005
+    second: sonido_2
+  - first:
+      213: -3059420873957441233
+    second: sonido_3
+  - first:
+      213: -6867416255505841957
+    second: sonido_4
+  - first:
+      213: -6175920424847047183
+    second: sonido_5
+  - first:
+      213: 8606971557808358064
+    second: sonido_6
+  - first:
+      213: 5512384839042560386
+    second: sonido_7
+  - first:
+      213: -172385117804119597
+    second: sonido_8
+  - first:
+      213: 1063764246663194454
+    second: sonido_9
+  - first:
+      213: 8732290824857510132
+    second: sonido_10
+  - first:
+      213: 4921546633495803416
+    second: sonido_11
+  - first:
+      213: 8997335581970906382
+    second: sonido_12
+  - first:
+      213: 4932633216098175523
+    second: sonido_13
+  - first:
+      213: -2450549889503502743
+    second: sonido_14
+  - first:
+      213: 6129922435560085485
+    second: sonido_15
+  - first:
+      213: 7332671033857603854
+    second: sonido_16
+  - first:
+      213: 8045475539595935243
+    second: sonido_17
+  - first:
+      213: 6253227610506949676
+    second: sonido_18
+  - first:
+      213: 3738485935135178676
+    second: sonido_19
+  - first:
+      213: 5332328921752685686
+    second: sonido_20
+  - first:
+      213: 6877248834606886819
+    second: sonido_21
+  - first:
+      213: -5135615869089313158
+    second: sonido_22
+  - first:
+      213: -1806543428487321022
+    second: sonido_23
+  - first:
+      213: 7583817733872339042
+    second: sonido_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sonido_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 563
+        width: 326
+        height: 311
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e99dbce5d09ff30800000000000000
+      internalID: 4609730394388536982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_1
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 953
+        width: 107
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bbb444a80185bf0800000000000000
+      internalID: -335499986201756795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_2
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 976
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0de198d46c48150800000000000000
+      internalID: 5874037850313249005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_3
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 920
+        width: 87
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f210a55bce0ca85d0800000000000000
+      internalID: -3059420873957441233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 951
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0c4ddfc4902b0a0800000000000000
+      internalID: -6867416255505841957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_5
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 497
+        width: 346
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f589e35819ba4aa0800000000000000
+      internalID: -6175920424847047183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_6
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 930
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2ce07b70b127770800000000000000
+      internalID: 8606971557808358064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_7
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 922
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28171642eccef7c40800000000000000
+      internalID: 5512384839042560386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_8
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 897
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9b8b016a09b9df0800000000000000
+      internalID: -172385117804119597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_9
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 526
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657ee1f32ff33ce00800000000000000
+      internalID: 1063764246663194454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 535
+        width: 328
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0e8035d345f2970800000000000000
+      internalID: 8732290824857510132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_11
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 493
+        width: 353
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81679037698dc4440800000000000000
+      internalID: 4921546633495803416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_12
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 527
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dbb58ba05fcdc70800000000000000
+      internalID: 8997335581970906382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_13
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 21
+        width: 357
+        height: 472
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a03dc96cb347440800000000000000
+      internalID: 4932633216098175523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_14
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 489
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e55cbebd5edfdd0800000000000000
+      internalID: -2450549889503502743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de791483afbd11550800000000000000
+      internalID: 6129922435560085485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 71
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09f0e38471e2c560800000000000000
+      internalID: 7332671033857603854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 144
+        width: 321
+        height: 306
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eb5b2606547af60800000000000000
+      internalID: 8045475539595935243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_18
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 37
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c247ee7716de7c650800000000000000
+      internalID: 6253227610506949676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 21
+        width: 329
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfb6819625c1e330800000000000000
+      internalID: 3738485935135178676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_20
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 13
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c4c9607ec300a40800000000000000
+      internalID: 5332328921752685686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_21
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 17
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af66bab065e07f50800000000000000
+      internalID: 6877248834606886819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_22
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 0
+        width: 350
+        height: 451
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e8214a390aab8b0800000000000000
+      internalID: -5135615869089313158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_23
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 95
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24a62b1c25edde6e0800000000000000
+      internalID: -1806543428487321022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sonido_24
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 79
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268c4c45c022f3960800000000000000
+      internalID: 7583817733872339042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4ce79379cf5b8e04389303f326b92a92
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sonido_0: 4609730394388536982
+      sonido_1: -335499986201756795
+      sonido_10: 8732290824857510132
+      sonido_11: 4921546633495803416
+      sonido_12: 8997335581970906382
+      sonido_13: 4932633216098175523
+      sonido_14: -2450549889503502743
+      sonido_15: 6129922435560085485
+      sonido_16: 7332671033857603854
+      sonido_17: 8045475539595935243
+      sonido_18: 6253227610506949676
+      sonido_19: 3738485935135178676
+      sonido_2: 5874037850313249005
+      sonido_20: 5332328921752685686
+      sonido_21: 6877248834606886819
+      sonido_22: -5135615869089313158
+      sonido_23: -1806543428487321022
+      sonido_24: 7583817733872339042
+      sonido_3: -3059420873957441233
+      sonido_4: -6867416255505841957
+      sonido_5: -6175920424847047183
+      sonido_6: 8606971557808358064
+      sonido_7: 5512384839042560386
+      sonido_8: -172385117804119597
+      sonido_9: 1063764246663194454
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
