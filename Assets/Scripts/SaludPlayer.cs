@@ -138,6 +138,14 @@ public class SaludPlayer : MonoBehaviour
         }
     }
 
+    public void MuerteAlVacio()
+    {
+        if (estaMuerto) return;
+
+        esInvulnerable = false; 
+        RecibirDano(3);         
+    }
+
     private IEnumerator RutinaInvulnerabilidad()
     {
         esInvulnerable = true;
