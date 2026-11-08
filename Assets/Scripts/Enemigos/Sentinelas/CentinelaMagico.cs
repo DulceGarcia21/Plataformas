@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class CentinelaMagico : EnemigoCentinela
 {
-    [Header("Multiplicadores (Mágico)")]
-    public int multiplicadorDistancia = 2; // Recibe el doble de daño de tus balas/magia
-    public int divisorFisico = 1; // Puedes hacer que reciba menos daño físico si lo deseas
+    [Header("Configuración de Disparo")]
+    [SerializeField] private GameObject prefabMagia;
+    [SerializeField] private Transform puntoDisparo;
 
-    // Cuando le disparas con tu ataque a distancia (CAD)
+    [Header("Multiplicadores (Mágico)")]
+    public int multiplicadorDistancia = 2;
+    public int divisorFisico = 1;
+
     public override void TomarDanioDistancia(int cantidad)
     {
         int danioFinal = cantidad * multiplicadorDistancia;
@@ -14,11 +17,32 @@ public class CentinelaMagico : EnemigoCentinela
         Debug.Log($"<color=magenta>¡Golpe Crítico Mágico!</color> El enemigo recibió {danioFinal} de daño.");
     }
 
-    // Cuando lo golpeas con tu espada/cuerpo a cuerpo (CCC)
     public override void TomarDanio(int cantidad)
     {
-        // Daño normal (o reducido) al atacarlo cuerpo a cuerpo
         int danioFinal = cantidad / divisorFisico;
         base.TomarDanio(danioFinal);
+    }
+
+    // SOBRESCRIBIMOS EL ATAQUE: En vez de daño directo, crea un proyectil
+    protected override void Atacar()
+    {
+        // Ejecuta la animación de ataque
+        if (anim != null)
+        {
+            anim.SetTrigger("Attack");
+        }
+
+        // Dispara la magia
+        if (prefabMagia != null && puntoDisparo != null)
+        {
+            GameObject magia = Instantiate(prefabMagia, puntoDisparo.position, Quaternion.identity);
+            MagiaEnemiga scriptMagia = magia.GetComponent<MagiaEnemiga>();
+
+            if (scriptMagia != null)
+            {
+                // Le dice a la magia en qué dirección volar dependiendo de a dónde mira el enemigo
+                scriptMagia.direccion = moviendoADerecha ? 1 : -1;
+            }
+        }
     }
 }

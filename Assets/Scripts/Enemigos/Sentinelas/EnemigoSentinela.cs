@@ -124,7 +124,7 @@ public class EnemigoCentinela : EnemigoBase
         transform.localScale = escalaLocal;
     }
 
-    protected void Atacar()
+    protected virtual void Atacar()
     {
         if (anim != null)
         {
