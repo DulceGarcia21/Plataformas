@@ -1,0 +1,3291 @@
+fileFormatVersion: 2
+guid: 1b96eea719a93a843b91100345014eb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6991154009982865158
+    second: Bola de magia_0
+  - first:
+      213: -7112321480850022164
+    second: Bola de magia_1
+  - first:
+      213: -9194585203030238282
+    second: Bola de magia_2
+  - first:
+      213: -3987563707338403990
+    second: Bola de magia_3
+  - first:
+      213: -4469262170532356504
+    second: Bola de magia_4
+  - first:
+      213: 732679726562978883
+    second: Bola de magia_5
+  - first:
+      213: -1725400600542685872
+    second: Bola de magia_6
+  - first:
+      213: -2092317930739116076
+    second: Bola de magia_7
+  - first:
+      213: 5420803031082174896
+    second: Bola de magia_8
+  - first:
+      213: 4184457638554417492
+    second: Bola de magia_9
+  - first:
+      213: -4721355642261391753
+    second: Bola de magia_10
+  - first:
+      213: 2117594737453867853
+    second: Bola de magia_11
+  - first:
+      213: 4690539505210170482
+    second: Bola de magia_12
+  - first:
+      213: -7232133155872322598
+    second: Bola de magia_13
+  - first:
+      213: 6242505266874736414
+    second: Bola de magia_14
+  - first:
+      213: 4012700045646029819
+    second: Bola de magia_15
+  - first:
+      213: 8732441514466715242
+    second: Bola de magia_16
+  - first:
+      213: -2506371532807527053
+    second: Bola de magia_17
+  - first:
+      213: -4397084318249998500
+    second: Bola de magia_18
+  - first:
+      213: -3639767871274109416
+    second: Bola de magia_19
+  - first:
+      213: -6174755194143303171
+    second: Bola de magia_20
+  - first:
+      213: 2526835473378904739
+    second: Bola de magia_21
+  - first:
+      213: 3919387688519061504
+    second: Bola de magia_22
+  - first:
+      213: 3533716086650844042
+    second: Bola de magia_23
+  - first:
+      213: -7335872603498205618
+    second: Bola de magia_24
+  - first:
+      213: 9182181310918604575
+    second: Bola de magia_25
+  - first:
+      213: -464146578765995676
+    second: Bola de magia_26
+  - first:
+      213: -7863835783847880389
+    second: Bola de magia_27
+  - first:
+      213: 2380354187834191572
+    second: Bola de magia_28
+  - first:
+      213: -1809268401500076120
+    second: Bola de magia_29
+  - first:
+      213: -983129819244813329
+    second: Bola de magia_30
+  - first:
+      213: 6788935950410060925
+    second: Bola de magia_31
+  - first:
+      213: 2884588196118735683
+    second: Bola de magia_32
+  - first:
+      213: -2432334411803590709
+    second: Bola de magia_33
+  - first:
+      213: 1942090628445949637
+    second: Bola de magia_34
+  - first:
+      213: -2175464135974006237
+    second: Bola de magia_35
+  - first:
+      213: 3487588392335959434
+    second: Bola de magia_36
+  - first:
+      213: 7876469242299243802
+    second: Bola de magia_37
+  - first:
+      213: 869674877044446246
+    second: Bola de magia_38
+  - first:
+      213: 8732168694968396761
+    second: Bola de magia_39
+  - first:
+      213: 1080889511081054284
+    second: Bola de magia_40
+  - first:
+      213: 2876671537879473230
+    second: Bola de magia_41
+  - first:
+      213: 6372227460216837639
+    second: Bola de magia_42
+  - first:
+      213: -3389404192954147952
+    second: Bola de magia_43
+  - first:
+      213: 6529086870536450761
+    second: Bola de magia_44
+  - first:
+      213: -7362184420076122969
+    second: Bola de magia_45
+  - first:
+      213: -1959992344658838642
+    second: Bola de magia_46
+  - first:
+      213: 2804595678401297753
+    second: Bola de magia_47
+  - first:
+      213: -1745337185590354106
+    second: Bola de magia_48
+  - first:
+      213: -6798197953831951617
+    second: Bola de magia_49
+  - first:
+      213: 1923709955132857551
+    second: Bola de magia_50
+  - first:
+      213: 6873831334021219995
+    second: Bola de magia_51
+  - first:
+      213: 2970732089546679355
+    second: Bola de magia_52
+  - first:
+      213: 2538252193698195979
+    second: Bola de magia_53
+  - first:
+      213: -6328538850698319598
+    second: Bola de magia_54
+  - first:
+      213: -3921756458328940691
+    second: Bola de magia_55
+  - first:
+      213: -1360468629514730342
+    second: Bola de magia_56
+  - first:
+      213: 4721022954975415575
+    second: Bola de magia_57
+  - first:
+      213: 7167701436546900746
+    second: Bola de magia_58
+  - first:
+      213: -5637385595346292722
+    second: Bola de magia_59
+  - first:
+      213: 6729073204038045875
+    second: Bola de magia_60
+  - first:
+      213: 7136664155012946636
+    second: Bola de magia_61
+  - first:
+      213: -7672169543340842980
+    second: Bola de magia_62
+  - first:
+      213: 276157801316130311
+    second: Bola de magia_63
+  - first:
+      213: -8395898426374643103
+    second: Bola de magia_64
+  - first:
+      213: 7657706329924512914
+    second: Bola de magia_65
+  - first:
+      213: -4409734848643441478
+    second: Bola de magia_66
+  - first:
+      213: 4568346354575316921
+    second: Bola de magia_67
+  - first:
+      213: -6901202361126857745
+    second: Bola de magia_68
+  - first:
+      213: 7697027913294226082
+    second: Bola de magia_69
+  - first:
+      213: 3935276990634487517
+    second: Bola de magia_70
+  - first:
+      213: 5968303168401561475
+    second: Bola de magia_71
+  - first:
+      213: -9196016840413182841
+    second: Bola de magia_72
+  - first:
+      213: 7508399667641370458
+    second: Bola de magia_73
+  - first:
+      213: 1327989724230662336
+    second: Bola de magia_74
+  - first:
+      213: -1514465075802586732
+    second: Bola de magia_75
+  - first:
+      213: -7540535051990870146
+    second: Bola de magia_76
+  - first:
+      213: 3949679503274082678
+    second: Bola de magia_77
+  - first:
+      213: 696867030046284360
+    second: Bola de magia_78
+  - first:
+      213: -2138174276527548813
+    second: Bola de magia_79
+  - first:
+      213: -1743273099029636436
+    second: Bola de magia_80
+  - first:
+      213: 6104575549127396563
+    second: Bola de magia_81
+  - first:
+      213: -1133547174503849412
+    second: Bola de magia_82
+  - first:
+      213: 3584321580878540414
+    second: Bola de magia_83
+  - first:
+      213: -3231389062153503063
+    second: Bola de magia_84
+  - first:
+      213: 3759246581610547923
+    second: Bola de magia_85
+  - first:
+      213: -2268956563944565949
+    second: Bola de magia_86
+  - first:
+      213: 400249511988648324
+    second: Bola de magia_87
+  - first:
+      213: -3104774343171793233
+    second: Bola de magia_88
+  - first:
+      213: 8122743043356563615
+    second: Bola de magia_89
+  - first:
+      213: 8790157965493794375
+    second: Bola de magia_90
+  - first:
+      213: -6381446378736386405
+    second: Bola de magia_91
+  - first:
+      213: 506492828969548115
+    second: Bola de magia_92
+  - first:
+      213: 2097344263449495985
+    second: Bola de magia_93
+  - first:
+      213: 2375043958605215868
+    second: Bola de magia_94
+  - first:
+      213: 6340153702537083502
+    second: Bola de magia_95
+  - first:
+      213: 7057662026613184904
+    second: Bola de magia_96
+  - first:
+      213: 5705685915121342209
+    second: Bola de magia_97
+  - first:
+      213: -7268173969587403505
+    second: Bola de magia_98
+  - first:
+      213: -7764476344473087022
+    second: Bola de magia_99
+  - first:
+      213: 7713170449916188758
+    second: Bola de magia_100
+  - first:
+      213: 9090379469494576121
+    second: Bola de magia_101
+  - first:
+      213: 486121959666701348
+    second: Bola de magia_102
+  - first:
+      213: 7442942024242811849
+    second: Bola de magia_103
+  - first:
+      213: -2095405666870559067
+    second: Bola de magia_104
+  - first:
+      213: -2273439211147187500
+    second: Bola de magia_105
+  - first:
+      213: -2038186658032477751
+    second: Bola de magia_106
+  - first:
+      213: -8509379686935188217
+    second: Bola de magia_107
+  - first:
+      213: 6459839193471090584
+    second: Bola de magia_108
+  - first:
+      213: -8664244190107062094
+    second: Bola de magia_109
+  - first:
+      213: 5039991331427046481
+    second: Bola de magia_110
+  - first:
+      213: 6537361329951935965
+    second: Bola de magia_111
+  - first:
+      213: 2318131670941945694
+    second: Bola de magia_112
+  - first:
+      213: 6368304825841308735
+    second: Bola de magia_113
+  - first:
+      213: -991708249272845417
+    second: Bola de magia_114
+  - first:
+      213: -5579167675262515888
+    second: Bola de magia_115
+  - first:
+      213: 5559490325745570150
+    second: Bola de magia_116
+  - first:
+      213: -4739817608661523786
+    second: Bola de magia_117
+  - first:
+      213: 1603481521296324362
+    second: Bola de magia_118
+  - first:
+      213: -5372465926675875684
+    second: Bola de magia_119
+  - first:
+      213: 8432729837774899509
+    second: Bola de magia_120
+  - first:
+      213: 651707095926265527
+    second: Bola de magia_121
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bola de magia_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 423
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f83170881950160800000000000000
+      internalID: 6991154009982865158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 562
+        width: 88
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0ed8dbb45fb4d90800000000000000
+      internalID: -7112321480850022164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 484
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bbd15c0975466080800000000000000
+      internalID: -9194585203030238282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 482
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6fcad86fe359a8c0800000000000000
+      internalID: -3987563707338403990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 506
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ed35d2cbdf9f1c0800000000000000
+      internalID: -4469262170532356504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 435
+        width: 140
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34caae354500b2a00800000000000000
+      internalID: 732679726562978883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 546
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055586d9b452e08e0800000000000000
+      internalID: -1725400600542685872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 476
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d75d157de796f2e0800000000000000
+      internalID: -2092317930739116076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 546
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b98309d2af8a3b40800000000000000
+      internalID: 5420803031082174896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 482
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459b4b35d0e221a30800000000000000
+      internalID: 4184457638554417492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 538
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77639b4ee006a7eb0800000000000000
+      internalID: -4721355642261391753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_11
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 452
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43ac28b135336d10800000000000000
+      internalID: 2117594737453867853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 417
+        width: 95
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c1df414d4281140800000000000000
+      internalID: 4690539505210170482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 470
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbc7e3563d42ab90800000000000000
+      internalID: -7232133155872322598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_14
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 532
+        width: 98
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fd29c4775d1a650800000000000000
+      internalID: 6242505266874736414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_15
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 457
+        width: 38
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3ecea6e69ffa730800000000000000
+      internalID: 4012700045646029819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_16
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 433
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66a9ab7a4ddf2970800000000000000
+      internalID: 8732441514466715242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 443
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3752bd7ce54973dd0800000000000000
+      internalID: -2506371532807527053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_18
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 565
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57a44bfb1b6af2c0800000000000000
+      internalID: -4397084318249998500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_19
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 562
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816b3d7c762fc7dc0800000000000000
+      internalID: -3639767871274109416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_20
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 417
+        width: 401
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9171ebddcde4aa0800000000000000
+      internalID: -6174755194143303171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_21
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 548
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa0b9ca97f111320800000000000000
+      internalID: 2526835473378904739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_22
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 516
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000d73f3656746630800000000000000
+      internalID: 3919387688519061504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_23
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 419
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8338e1fe084a0130800000000000000
+      internalID: 3533716086650844042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_24
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 112
+        width: 186
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e28f6fbbeb13a90800000000000000
+      internalID: -7335872603498205618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_25
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 433
+        width: 295
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17b884c049ad6f70800000000000000
+      internalID: 9182181310918604575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_26
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 95
+        width: 415
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461a0f055250f89f0800000000000000
+      internalID: -464146578765995676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_27
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 462
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39ddbbd40b0ed290800000000000000
+      internalID: -7863835783847880389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_28
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 427
+        width: 166
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de687da587b80120800000000000000
+      internalID: 2380354187834191572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_29
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 580
+        width: 27
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7cf3989ff24e6e0800000000000000
+      internalID: -1809268401500076120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_30
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 516
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3a1d363a83b52f0800000000000000
+      internalID: -983129819244813329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_31
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 512
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74121f0745273e50800000000000000
+      internalID: 6788935950410060925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_32
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 530
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b21f06ead180820800000000000000
+      internalID: 2884588196118735683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_33
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 435
+        width: 102
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcffc715dbc9e3ed0800000000000000
+      internalID: -2432334411803590709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_34
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 441
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cec22e0321b3fa10800000000000000
+      internalID: 1942090628445949637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_35
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 514
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322daa9f4e23fc1e0800000000000000
+      internalID: -2175464135974006237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_36
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 522
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85e5ff2a27666030800000000000000
+      internalID: 3487588392335959434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_37
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 433
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d59876b07de4d60800000000000000
+      internalID: 7876469242299243802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_38
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 439
+        width: 70
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624d05461b4b11c00800000000000000
+      internalID: 869674877044446246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_39
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 120
+        width: 142
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dba06eb925ee2970800000000000000
+      internalID: 8732168694968396761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_40
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 421
+        width: 107
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c409e659847100f00800000000000000
+      internalID: 1080889511081054284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_41
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 565
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c58ceb58dfbe720800000000000000
+      internalID: 2876671537879473230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_42
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 81
+        width: 246
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706d6321d13be6850800000000000000
+      internalID: 6372227460216837639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_43
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 530
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09b9fb628da66f0d0800000000000000
+      internalID: -3389404192954147952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_44
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 512
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2fdf98ae9fb9a50800000000000000
+      internalID: 6529086870536450761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_45
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 530
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac8276c64444d990800000000000000
+      internalID: -7362184420076122969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_46
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 488
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bff16d855bcc4e0800000000000000
+      internalID: -1959992344658838642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_47
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 546
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d74bdf8ecebe620800000000000000
+      internalID: 2804595678401297753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_48
+      rect:
+        serializedVersion: 2
+        x: 1705
+        y: 516
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f5b9fa31157c7e0800000000000000
+      internalID: -1745337185590354106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_49
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 445
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff22f09baf2f7a1a0800000000000000
+      internalID: -6798197953831951617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_50
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 538
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc939e030462ba10800000000000000
+      internalID: 1923709955132857551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_51
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 528
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96c84edd21c46f50800000000000000
+      internalID: 6873831334021219995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_52
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 437
+        width: 401
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34a84888192a3920800000000000000
+      internalID: 2970732089546679355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_53
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 516
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aacb30ceea93320800000000000000
+      internalID: 2538252193698195979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 148
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2192ed002738c28a0800000000000000
+      internalID: -6328538850698319598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_55
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 212
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f95bd874f1399c0800000000000000
+      internalID: -3921756458328940691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_56
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 210
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9446b15df4ae1de0800000000000000
+      internalID: -1360468629514730342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_57
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 219
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d46cf4d51748140800000000000000
+      internalID: 4721022954975415575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_58
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 215
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a036f6dfa7ac87360800000000000000
+      internalID: 7167701436546900746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_59
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 194
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00fa7f4babf3c1b0800000000000000
+      internalID: -5637385595346292722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_60
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 118
+        width: 172
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0994a4d68726d50800000000000000
+      internalID: 6729073204038045875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_61
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 158
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca5fc0cc368a0360800000000000000
+      internalID: 7136664155012946636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_62
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 194
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c102990037af68590800000000000000
+      internalID: -7672169543340842980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_63
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 152
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e9661ae0c15d300800000000000000
+      internalID: 276157801316130311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_64
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 176
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162ada55dd6cb7b80800000000000000
+      internalID: -8395898426374643103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_65
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 178
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c2965b553a54a60800000000000000
+      internalID: 7657706329924512914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_66
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 176
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc52f8d4897dc2c0800000000000000
+      internalID: -4409734848643441478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_67
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 232
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7996b2ec6066f30800000000000000
+      internalID: 4568346354575316921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_68
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 260
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe352f544010a30a0800000000000000
+      internalID: -6901202361126857745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_69
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 256
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a22b264b1651da60800000000000000
+      internalID: 7697027913294226082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_70
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 59
+        width: 202
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde698fa299ec9630800000000000000
+      internalID: 3935276990634487517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 220
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387d9683c1ca3d250800000000000000
+      internalID: 5968303168401561475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_72
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 239
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78489aef76f216080800000000000000
+      internalID: -9196016840413182841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_73
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 226
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57cc6d67b1333860800000000000000
+      internalID: 7508399667641370458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_74
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 222
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c833224e97fd6210800000000000000
+      internalID: 1327989724230662336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_75
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 216
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4914d0c990a8bfae0800000000000000
+      internalID: -1514465075802586732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_76
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 212
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77d3b95253aa5790800000000000000
+      internalID: -7540535051990870146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_77
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 189
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6710b49f49410d630800000000000000
+      internalID: 3949679503274082678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_78
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 182
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a17952fd4cba900800000000000000
+      internalID: 696867030046284360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_79
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 182
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37692b3f2dda352e0800000000000000
+      internalID: -2138174276527548813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_80
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 240
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa18d94a56aec7e0800000000000000
+      internalID: -1743273099029636436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_81
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc06465e1fc7b450800000000000000
+      internalID: 6104575549127396563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_82
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 240
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32ec8fb9d4d440f0800000000000000
+      internalID: -1133547174503849412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_83
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 118
+        width: 210
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e280dbc711eb130800000000000000
+      internalID: 3584321580878540414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_84
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 174
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aef143c4ccc723d0800000000000000
+      internalID: -3231389062153503063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_85
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 176
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da8fff39d68b2430800000000000000
+      internalID: 3759246581610547923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_86
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 142
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3431b4bc60c0380e0800000000000000
+      internalID: -2268956563944565949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_87
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 272
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4895b9f7fc8fd8500800000000000000
+      internalID: 400249511988648324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_88
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 264
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae9f774f20a9e4d0800000000000000
+      internalID: -3104774343171793233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_89
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 214
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f981b0503c7c9b070800000000000000
+      internalID: 8122743043356563615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_90
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 160
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746f3dce81aecf970800000000000000
+      internalID: 8790157965493794375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_91
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 208
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ef632345c8077a0800000000000000
+      internalID: -6381446378736386405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_92
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 175
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35933006b8c670700800000000000000
+      internalID: 506492828969548115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_93
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 208
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b94c92de734b1d10800000000000000
+      internalID: 2097344263449495985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_94
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 160
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78f99695e9d5f020800000000000000
+      internalID: 2375043958605215868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_95
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 176
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ab91d6330ccf750800000000000000
+      internalID: 6340153702537083502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_96
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 216
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889da09583ad1f160800000000000000
+      internalID: 7057662026613184904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_97
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 93
+        width: 223
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107d1ca1c1bae2f40800000000000000
+      internalID: 5705685915121342209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_98
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 240
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0580097842422b90800000000000000
+      internalID: -7268173969587403505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_99
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 156
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d312c417e90f3490800000000000000
+      internalID: -7764476344473087022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_100
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 143
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6585b4778afaa0b60800000000000000
+      internalID: 7713170449916188758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_101
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 264
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f36ab0f6f3872e70800000000000000
+      internalID: 9090379469494576121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_102
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 274
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4245373c85d0fb600800000000000000
+      internalID: 486121959666701348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_103
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 256
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c3d1de2654aa4760800000000000000
+      internalID: 7442942024242811849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_104
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 266
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aef6ddd5af9be2e0800000000000000
+      internalID: -2095405666870559067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_105
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 198
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4daa029251f1370e0800000000000000
+      internalID: -2273439211147187500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_106
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 272
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c998068808e6b3e0800000000000000
+      internalID: -2038186658032477751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_107
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 264
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70dad45624c98e980800000000000000
+      internalID: -8509379686935188217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_108
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 223
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f7df05585f5a950800000000000000
+      internalID: 6459839193471090584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_109
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 224
+        width: 172
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b03d6170db62c780800000000000000
+      internalID: -8664244190107062094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_110
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 102
+        width: 218
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154d1c4b965a1f540800000000000000
+      internalID: 5039991331427046481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_111
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 159
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd09204e7f59ba50800000000000000
+      internalID: 6537361329951935965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_112
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 224
+        width: 43
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fc3150978ab2020800000000000000
+      internalID: 2318131670941945694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_113
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 140
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f345da59f73c06850800000000000000
+      internalID: 6368304825841308735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_114
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 144
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b74410a9ebc32f0800000000000000
+      internalID: -991708249272845417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_115
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 144
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055c2ad1f80d292b0800000000000000
+      internalID: -5579167675262515888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_116
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 136
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661194eeef6472d40800000000000000
+      internalID: 5559490325745570150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_117
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 130
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2a69f5ff8c83eb0800000000000000
+      internalID: -4739817608661523786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_118
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 114
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0735c0b2f5b04610800000000000000
+      internalID: 1603481521296324362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_119
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 112
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98389844ba2175b0800000000000000
+      internalID: -5372465926675875684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_120
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 112
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5390963eb13170570800000000000000
+      internalID: 8432729837774899509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bola de magia_121
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 112
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6594e96245b0900800000000000000
+      internalID: 651707095926265527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Bola de magia_0: 6991154009982865158
+      Bola de magia_1: -7112321480850022164
+      Bola de magia_10: -4721355642261391753
+      Bola de magia_100: 7713170449916188758
+      Bola de magia_101: 9090379469494576121
+      Bola de magia_102: 486121959666701348
+      Bola de magia_103: 7442942024242811849
+      Bola de magia_104: -2095405666870559067
+      Bola de magia_105: -2273439211147187500
+      Bola de magia_106: -2038186658032477751
+      Bola de magia_107: -8509379686935188217
+      Bola de magia_108: 6459839193471090584
+      Bola de magia_109: -8664244190107062094
+      Bola de magia_11: 2117594737453867853
+      Bola de magia_110: 5039991331427046481
+      Bola de magia_111: 6537361329951935965
+      Bola de magia_112: 2318131670941945694
+      Bola de magia_113: 6368304825841308735
+      Bola de magia_114: -991708249272845417
+      Bola de magia_115: -5579167675262515888
+      Bola de magia_116: 5559490325745570150
+      Bola de magia_117: -4739817608661523786
+      Bola de magia_118: 1603481521296324362
+      Bola de magia_119: -5372465926675875684
+      Bola de magia_12: 4690539505210170482
+      Bola de magia_120: 8432729837774899509
+      Bola de magia_121: 651707095926265527
+      Bola de magia_13: -7232133155872322598
+      Bola de magia_14: 6242505266874736414
+      Bola de magia_15: 4012700045646029819
+      Bola de magia_16: 8732441514466715242
+      Bola de magia_17: -2506371532807527053
+      Bola de magia_18: -4397084318249998500
+      Bola de magia_19: -3639767871274109416
+      Bola de magia_2: -9194585203030238282
+      Bola de magia_20: -6174755194143303171
+      Bola de magia_21: 2526835473378904739
+      Bola de magia_22: 3919387688519061504
+      Bola de magia_23: 3533716086650844042
+      Bola de magia_24: -7335872603498205618
+      Bola de magia_25: 9182181310918604575
+      Bola de magia_26: -464146578765995676
+      Bola de magia_27: -7863835783847880389
+      Bola de magia_28: 2380354187834191572
+      Bola de magia_29: -1809268401500076120
+      Bola de magia_3: -3987563707338403990
+      Bola de magia_30: -983129819244813329
+      Bola de magia_31: 6788935950410060925
+      Bola de magia_32: 2884588196118735683
+      Bola de magia_33: -2432334411803590709
+      Bola de magia_34: 1942090628445949637
+      Bola de magia_35: -2175464135974006237
+      Bola de magia_36: 3487588392335959434
+      Bola de magia_37: 7876469242299243802
+      Bola de magia_38: 869674877044446246
+      Bola de magia_39: 8732168694968396761
+      Bola de magia_4: -4469262170532356504
+      Bola de magia_40: 1080889511081054284
+      Bola de magia_41: 2876671537879473230
+      Bola de magia_42: 6372227460216837639
+      Bola de magia_43: -3389404192954147952
+      Bola de magia_44: 6529086870536450761
+      Bola de magia_45: -7362184420076122969
+      Bola de magia_46: -1959992344658838642
+      Bola de magia_47: 2804595678401297753
+      Bola de magia_48: -1745337185590354106
+      Bola de magia_49: -6798197953831951617
+      Bola de magia_5: 732679726562978883
+      Bola de magia_50: 1923709955132857551
+      Bola de magia_51: 6873831334021219995
+      Bola de magia_52: 2970732089546679355
+      Bola de magia_53: 2538252193698195979
+      Bola de magia_54: -6328538850698319598
+      Bola de magia_55: -3921756458328940691
+      Bola de magia_56: -1360468629514730342
+      Bola de magia_57: 4721022954975415575
+      Bola de magia_58: 7167701436546900746
+      Bola de magia_59: -5637385595346292722
+      Bola de magia_6: -1725400600542685872
+      Bola de magia_60: 6729073204038045875
+      Bola de magia_61: 7136664155012946636
+      Bola de magia_62: -7672169543340842980
+      Bola de magia_63: 276157801316130311
+      Bola de magia_64: -8395898426374643103
+      Bola de magia_65: 7657706329924512914
+      Bola de magia_66: -4409734848643441478
+      Bola de magia_67: 4568346354575316921
+      Bola de magia_68: -6901202361126857745
+      Bola de magia_69: 7697027913294226082
+      Bola de magia_7: -2092317930739116076
+      Bola de magia_70: 3935276990634487517
+      Bola de magia_71: 5968303168401561475
+      Bola de magia_72: -9196016840413182841
+      Bola de magia_73: 7508399667641370458
+      Bola de magia_74: 1327989724230662336
+      Bola de magia_75: -1514465075802586732
+      Bola de magia_76: -7540535051990870146
+      Bola de magia_77: 3949679503274082678
+      Bola de magia_78: 696867030046284360
+      Bola de magia_79: -2138174276527548813
+      Bola de magia_8: 5420803031082174896
+      Bola de magia_80: -1743273099029636436
+      Bola de magia_81: 6104575549127396563
+      Bola de magia_82: -1133547174503849412
+      Bola de magia_83: 3584321580878540414
+      Bola de magia_84: -3231389062153503063
+      Bola de magia_85: 3759246581610547923
+      Bola de magia_86: -2268956563944565949
+      Bola de magia_87: 400249511988648324
+      Bola de magia_88: -3104774343171793233
+      Bola de magia_89: 8122743043356563615
+      Bola de magia_9: 4184457638554417492
+      Bola de magia_90: 8790157965493794375
+      Bola de magia_91: -6381446378736386405
+      Bola de magia_92: 506492828969548115
+      Bola de magia_93: 2097344263449495985
+      Bola de magia_94: 2375043958605215868
+      Bola de magia_95: 6340153702537083502
+      Bola de magia_96: 7057662026613184904
+      Bola de magia_97: 5705685915121342209
+      Bola de magia_98: -7268173969587403505
+      Bola de magia_99: -7764476344473087022
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
