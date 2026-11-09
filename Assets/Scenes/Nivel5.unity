@@ -69719,7 +69719,7 @@ PrefabInstance:
     - target: {fileID: 1770548014106442431, guid: 947ed377f5fb0fa42982a5777eefe62c, type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2054831003}
     - target: {fileID: 3332875471160880461, guid: 947ed377f5fb0fa42982a5777eefe62c, type: 3}
       propertyPath: nombreEscenaSiguiente
       value: Nivel4
@@ -107444,15 +107444,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 401305472902054129, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -190.18437
+      value: -46.584366
       objectReference: {fileID: 0}
     - target: {fileID: 401305472902054129, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.12335
+      value: 22.276651
       objectReference: {fileID: 0}
     - target: {fileID: 401305472902054129, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 1634867643262506613, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -107472,19 +107472,19 @@ PrefabInstance:
       objectReference: {fileID: 203014627}
     - target: {fileID: 2469356640033991003, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: field of view
-      value: 40
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2469356640033991003, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: far clip plane
-      value: 5000
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 2469356640033991003, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: near clip plane
-      value: 0.1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 2469356640033991003, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: orthographic size
-      value: 10
+      value: 7.066184
       objectReference: {fileID: 0}
     - target: {fileID: 4172316613569428524, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -107535,6 +107535,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
+--- !u!20 &2054831003 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 2469356640033991003, guid: 3bab1505903317d46a8f1a5fd9d548bb, type: 3}
+  m_PrefabInstance: {fileID: 2054831002}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
