@@ -478,6 +478,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3153688522944007243, guid: f2a139c4926d3264b862d0f3e5c31218, type: 3}
   m_PrefabInstance: {fileID: 121863085}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &156055376 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2577339578011518397, guid: 947ed377f5fb0fa42982a5777eefe62c, type: 3}
+  m_PrefabInstance: {fileID: 700170821880054637}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &198306911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1071,7 +1076,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -2070838867
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -3707,7 +3712,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -1557063487
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -7059,6 +7064,10 @@ PrefabInstance:
       propertyPath: textoHUD
       value: 
       objectReference: {fileID: 17768065060795465}
+    - target: {fileID: 2139884315444973284, guid: 24b551705eb53d244b8791584c4f708a, type: 3}
+      propertyPath: fuenteAudio
+      value: 
+      objectReference: {fileID: 156055376}
     - target: {fileID: 2139884315444973284, guid: 24b551705eb53d244b8791584c4f708a, type: 3}
       propertyPath: panelGameOver
       value: 
@@ -35082,7 +35091,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -2070838867
-  m_SortingLayer: 4
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}

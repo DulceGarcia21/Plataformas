@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using TMPro;
-using UnityEngine.SceneManagement; // Necesario para poder reiniciar el nivel
+using UnityEngine.SceneManagement;
 
 public class SaludPlayer : MonoBehaviour
 {
@@ -11,13 +11,18 @@ public class SaludPlayer : MonoBehaviour
 
     [Header("UI y Game Over")]
     [SerializeField] private TextMeshProUGUI textoHUD;
-    [SerializeField] private GameObject panelGameOver; // Arrastra aquí tu UI Panel de Game Over
+    [SerializeField] private GameObject panelGameOver; 
 
     [Header("Invulnerabilidad (i-Frames)")]
     [SerializeField] private float tiempoInvulnerable = 1.5f;
     [SerializeField] private float frecuenciaParpadeo = 0.1f;
     private bool esInvulnerable = false;
-    private bool estaMuerto = false; // Bloquea interacciones si el jugador ya perdió
+    private bool estaMuerto = false;
+
+    [Header("Efectos de Sonido")]
+    [SerializeField] private AudioSource fuenteAudio;
+    [SerializeField] private AudioClip sonidoDaño;
+    [SerializeField] private AudioClip sonidoCurar;
 
     private SpriteRenderer spriteRenderer;
 
@@ -26,7 +31,11 @@ public class SaludPlayer : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         corazonesActuales = maxCorazones;
 
-        // Aseguramos que la pantalla de Game Over esté oculta al iniciar el nivel
+        if (fuenteAudio == null)
+        {
+            fuenteAudio = GetComponent<AudioSource>();
+        }
+
         if (panelGameOver != null)
         {
             panelGameOver.SetActive(false);
@@ -44,7 +53,6 @@ public class SaludPlayer : MonoBehaviour
     {
         if (estaMuerto) return;
 
-        // Teclas de prueba
         if (Input.GetKeyDown(KeyCode.K))
         {
             RecibirDano(1);
@@ -73,6 +81,12 @@ public class SaludPlayer : MonoBehaviour
 
         corazonesActuales -= cantidad;
         ActualizarHUD();
+        
+        if (fuenteAudio != null && sonidoDaño != null)
+        {
+            fuenteAudio.PlayOneShot(sonidoDaño);
+        }
+
         Debug.Log($"<color=orange>[DAÑO RECIBIDO]</color> Corazones actuales: {corazonesActuales}/{maxCorazones}");
 
         if (corazonesActuales <= 0)
@@ -85,20 +99,24 @@ public class SaludPlayer : MonoBehaviour
         }
     }
 
-    // NUEVA FUNCIÓN: Para sumar corazones al recoger objetos
     public void Curar(int cantidad)
     {
         if (estaMuerto) return;
 
         corazonesActuales += cantidad;
 
-        // Evitamos que la salud supere el máximo permitido
         if (corazonesActuales > maxCorazones)
         {
             corazonesActuales = maxCorazones;
         }
 
         ActualizarHUD();
+
+        if (fuenteAudio != null && sonidoCurar != null)
+        {
+            fuenteAudio.PlayOneShot(sonidoCurar);
+        }
+
         Debug.Log($"<color=green>[CURACIÓN]</color> Corazones actuales: {corazonesActuales}/{maxCorazones}");
     }
 
@@ -107,20 +125,17 @@ public class SaludPlayer : MonoBehaviour
         estaMuerto = true;
         Debug.Log("<color=red><b>[GAME OVER]</b></color> Has perdido todos los corazones.");
 
-        // Mostrar pantalla de Game Over
         if (panelGameOver != null)
         {
             panelGameOver.SetActive(true);
         }
 
-        // Opcional: Detener el tiempo para que enemigos/físicas se pausen al morir
         Time.timeScale = 0f;
     }
 
-    // FUNCIÓN PÚBLICA PARA EL BOTÓN DE "REINTENTAR"
     public void ReiniciarNivel()
     {
-        Time.timeScale = 1f; // Restaurar el flujo del tiempo antes de recargar
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
@@ -132,7 +147,6 @@ public class SaludPlayer : MonoBehaviour
             int saludVisual = Mathf.Max(0, corazonesActuales);
 
             string corazones = new string('♥', saludVisual) + new string('♡', maxCorazones - saludVisual);
-
             
             textoHUD.text = $"SALUD: {corazones} ({saludVisual}/{maxCorazones})\nPUNTOS: {puntos:D6}";
         }

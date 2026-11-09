@@ -199,7 +199,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 1793905345
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3627241991512469009, guid: c7a258cf61a58f34985acefd336049b5, type: 3}
@@ -366,11 +366,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6790353b3c0c3ee40ac6331ef6b88315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SaludPlayer
-  maxSaludPorVida: 3
-  maxVidasTotales: 5
+  maxCorazones: 3
   textoHUD: {fileID: 0}
+  panelGameOver: {fileID: 0}
   tiempoInvulnerable: 1.5
   frecuenciaParpadeo: 0.1
+  fuenteAudio: {fileID: 0}
+  "sonidoDa\xF1o": {fileID: 8300000, guid: 8f78eddebb657ea42aaa1faf4c53c0c0, type: 3}
+  sonidoCurar: {fileID: 8300000, guid: 6f971d7ae4ade6d4b883ddc2af551c66, type: 3}
 --- !u!1 &3829232888569121879
 GameObject:
   m_ObjectHideFlags: 0
