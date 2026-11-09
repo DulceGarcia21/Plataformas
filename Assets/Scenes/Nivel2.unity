@@ -1928,6 +1928,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!82 &583056846 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2577339578011518397, guid: 947ed377f5fb0fa42982a5777eefe62c, type: 3}
+  m_PrefabInstance: {fileID: 583056843}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &586799815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1940,6 +1945,10 @@ PrefabInstance:
       propertyPath: textoHUD
       value: 
       objectReference: {fileID: 583056845}
+    - target: {fileID: 2139884315444973284, guid: 24b551705eb53d244b8791584c4f708a, type: 3}
+      propertyPath: fuenteAudio
+      value: 
+      objectReference: {fileID: 583056846}
     - target: {fileID: 2139884315444973284, guid: 24b551705eb53d244b8791584c4f708a, type: 3}
       propertyPath: panelGameOver
       value: 
