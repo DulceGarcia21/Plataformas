@@ -184,7 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CentinelaMagico
   vidaMax: 3
   danioContacto: 1
-  puntosAlMorir: 100
+  puntosAlMorir: 300
   distanciaPatrulla: 5
   velocidadMovimiento: 2
   rangoVision: 9
