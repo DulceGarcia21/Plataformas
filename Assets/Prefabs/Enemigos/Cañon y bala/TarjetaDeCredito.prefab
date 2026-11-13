@@ -186,6 +186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Canon
   prefabBala: {fileID: 0}
   puntoDisparo: {fileID: 8710540555008780654}
-  tiempoEntreDisparos: 3
-  distanciaDeteccion: 17
+  tiempoEntreDisparos: 2
+  distanciaDeteccion: 40
   direccionDisparo: 1
